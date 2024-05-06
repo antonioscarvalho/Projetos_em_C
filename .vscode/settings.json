@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "vetores_dinamicos.C": "cpp"
-    }
+        "vetores_dinamicos.C": "cpp",
+        "vetorc.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
