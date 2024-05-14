@@ -23,8 +23,8 @@ int main() {
     // Lê palavras do arquivo de entrada e escreve no arquivo de saída
     while (fscanf(inputFile, "%s", word) != EOF) {
         // Pré-processamento: converter para minúsculas
-        for (int i = 0; word[i]; i++) {
-            word[i] = tolower(word[i]);
+        for (int i = 0; word[i]; i++) { // Enquanto word[i] != '\0'
+            word[i] = tolower(word[i]); // Converte para minúsculas
         }
         fprintf(outputFile, "%s\n", word);
     }

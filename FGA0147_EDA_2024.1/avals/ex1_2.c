@@ -24,6 +24,6 @@ int main() {
     printf("Digite um valor: ");
     scanf("%d", &valor);
     soma = Q1(valor);
-    printf("Soma dos digitos impares: %d\n", soma);
+    printf("Soma dos digitos de alocação: %d\n", soma);
     return 0;
 }

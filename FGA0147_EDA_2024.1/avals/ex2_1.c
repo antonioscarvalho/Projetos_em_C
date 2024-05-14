@@ -11,15 +11,15 @@ float *alocavet(int tamanho) {
         exit(1);
     }
 
-    return vetor;
+    return vetor; 
 }
 
 int main() {
 
-    int n;
+    int n; 
     float *v;
 
-    printf("Digite o tamanho do vetor: \n");
+    printf("Digite o tamanho do vetor: \n"); 
     scanf("%d", &n);
 
     v = alocavet(n); // Chama a função alocavet para alocar memória para o vetor
@@ -28,7 +28,8 @@ int main() {
 
     printf("Memória liberada\n");
 
-    printf("%f\n", v[0]); // Acessa a memória liberada (erro de "segmentation fault
+    printf("%f\n", v[0]); // Acessa a memória liberada
+
 
     return 0;
 }
